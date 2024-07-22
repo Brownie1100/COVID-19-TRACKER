@@ -1,0 +1,43 @@
+.Map {
+    height: 500px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .leaflet-container {
+    height: 100%;
+      border-radius: 12px;
+  }
+  
+  .popup {
+    width: 150px;
+  }
+
+  .popupflag img {
+    width: 100px;
+    border-radius: 5px;
+  }
+  
+  .popupcountry {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  
+  .popupflag {
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  
+  .popupcases,
+  .popupcases,
+  .popuprecovered {
+    font-size: 16px;
+    margin-top: 5px;
+  } 
